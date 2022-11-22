@@ -44,6 +44,12 @@ console.log(me.favThreeFoods[2]);
 */
 console.log("Current shoe count:", me.shoeCount);
 
+// Adding one shoe to my shoe collection
+me.shoeCount.push( 1 );
+console.log(me.shoeCount);
+
+
+
 
 
 /* 5. Add a new property to an existing object.
