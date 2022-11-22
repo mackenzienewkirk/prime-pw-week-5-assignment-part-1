@@ -10,8 +10,8 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
-  firstName: 'Kenzie',
-  lastName: 'Newkirk',
+  firstName: "Kenzie",
+  lastName: "Newkirk",
   hasSiblings: true,
   shoeCount: 10,
   favThreeFoods: [ 'sushi', 'mango', 'tacos']
@@ -24,6 +24,8 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
+let fullName = me["firstName", "lastName"];
+console.log('From the object - me', fullName);
 
 
 
@@ -33,13 +35,14 @@ console.log('A little about me:', me);
 */
 
 
-
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
   - Guess what?! You just got a new pair of shoes!!!
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
+console.log("Current shoe count:", me[shoeCount]);
+
 
 
 /* 5. Add a new property to an existing object.
