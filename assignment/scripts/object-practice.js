@@ -45,12 +45,10 @@ console.log(me.favThreeFoods[2]);
 console.log("Current shoe count:", me.shoeCount);
 
 // Adding one shoe to my shoe collection
-function addShoe(){
-  let shoeCount = 10;
-  shoeCount.push(1)
-  return addShoe;
-}
-console.log(me.shoeCount);
+
+me.shoeCount = 11;
+
+console.log(me);
 
 
 /* 5. Add a new property to an existing object.
@@ -59,4 +57,9 @@ console.log(me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoritColor = 'Green';
+
+console.log(me);
+
 
