@@ -60,6 +60,8 @@ console.log(me);
 
 me.favoritColor = 'Green';
 
+//Updated favorite color to green!
+
 console.log(me);
 
 
